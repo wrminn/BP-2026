@@ -115,20 +115,20 @@
     <section class="banner-box-one">
         <div class="banner-smartcity-body-one">
             <div class="smartcity-one">
-                <a href="https://asean.org/our-communities/economic-community-1/" class="" target="_blank">
+                {{-- <a href="https://asean.org/our-communities/economic-community-1/" class="" target="_blank">
                     <img src="/img/SmartCity/SMT-1.png" class="banner-smartcity no-underline">
-                </a>
+                </a> --}}
                 <a href="https://thakam.go.th/directory/menu/7" class="" target="_blank">
                     <img src="/img/SmartCity/SMT-2.png" class="banner-smartcity no-underline">
                 </a>
-                <a href="https://infocenter.oic.go.th/%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%20%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2/index.php?gid=0&mid=1012"
+                {{-- <a href="https://infocenter.oic.go.th/%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%20%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2/index.php?gid=0&mid=1012"
                     class="" target="_blank">
                     <img src="/img/SmartCity/SMT-3.png" class="banner-smartcity no-underline">
-                </a>
-                <a href="https://sites.google.com/view/e-learning-thakam/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81"
+                </a> --}}
+                {{-- <a href="https://sites.google.com/view/e-learning-thakam/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81"
                     class="" target="_blank">
                     <img src="/img/SmartCity/SMT-4.png" class="banner-smartcity no-underline">
-                </a>
+                </a> --}}
                 <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
                     target="_blank">
                     <img src="/img/SmartCity/SMT-5.png" class="banner-smartcity no-underline">
@@ -142,7 +142,7 @@
                 <a href="https://pr.moi.go.th/citizenknowledge.htm" class="" target="_blank">
                     <img src="/img/SmartCity/SMT-8.png" class="banner-smartcity no-underline">
                 </a>
-                <div class="regis-smartcity-box">
+                {{-- <div class="regis-smartcity-box">
                     <div class="three-text">
                         <div> ระบบจองห้องประชุมและ</div>
                         <div>เครื่องเสียงห้องประชุม</div>
@@ -160,12 +160,12 @@
                 </div>
                 <a href="https://www.enic8r.com/" target="_blank">
                     <img src="/img/SmartCity/smartcity.png" class="banner-smartcity no-underline">
-                </a>
+                </a> --}}
             </div>
         </div>
     </section>
 
-    <section class="banner-one-stop-service">
+    {{-- <section class="banner-one-stop-service">
         <div class="box-one-stop-service">
 
             <div class="ons-box-one">
@@ -210,7 +210,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
 
 
@@ -221,7 +221,7 @@
                     <span class="title-activity-top">ข่าวกิจกรรม</span>
                     <span class="title-activity-button"><b>Activity</b> news</span>
                 </div>
-                <img src="/img/activity-loma.png" style="height: 182px;" class="activity-loma">
+                {{-- <img src="/img/activity-loma.png" style="height: 182px;" class="activity-loma"> --}}
             </div>
             <div class="activity-directory">
 
@@ -653,7 +653,7 @@
 
             </div>
         </div>
-        <div class="box-elibrary">
+        {{-- <div class="box-elibrary">
             <div class="elibrary-one-box">
                 <div class="elibrary-one">
                     <div class="elibrary-text-one">
@@ -679,7 +679,7 @@
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
             </div>
-        </div>
+        </div> --}}
         <div class="e-book">
             <div class="content-book">
 
@@ -748,10 +748,7 @@
         </div>
         <div class="map-two">
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.9218015846136!2d100.99155047508533!3d13.478916086885109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d382930e1b751%3A0xe3df05a76a79a6d0!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LmA4LiX4Lio4Lia4Liy4Lil4LiV4Liz4Lia4Lil4LiX4LmI4Liy4LiC4LmJ4Liy4Lih!5e0!3m2!1sth!2sth!4v1774801182506!5m2!1sth!2sth"
-                width="1050" height="800" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.950947539581!2d101.07593607485305!3d13.599808186776418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3c23b6e73297%3A0xdd50d3ae11f0ad1b!2z4LiX4Li14LmI4Lin4LmI4Liy4LiB4Liy4Lij4Lit4Liz4LmA4Lig4Lit4Lia4LmJ4Liy4LiZ4LmC4Lie4LiY4Li04LmM!5e0!3m2!1sth!2sth!4v1779636986326!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="map-three">
             <div class="text-map-three">
@@ -767,9 +764,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="m-img-three">
+                {{-- <div class="m-img-three">
                     <img src="/img/12/2.png" alt="" width="200">
-                </div>
+                </div> --}}
             </div>
         </div>
 

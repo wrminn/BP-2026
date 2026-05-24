@@ -41,7 +41,7 @@
                     <a href="/home"><img src="/img/logo.png" alt="โลโก้" class="header-logo"></a>
                     <div class="heard-title-box">
                         <div class="header-title-th">เทศบาลตำบลบ้านโพธิ์</div>
-                        <div class="header-title-en">Ban Pho Subdistict Municipality</div>
+                        <div class="header-title-en">BanPho Subdistict Municipality</div>
                         <div class="header-box-contact">
                             <a href="/contact/menu/74">
                                 <div class="header-box-contact-title">ติดต่อองค์กร</div>
@@ -381,9 +381,7 @@
                 <div class="footer-contact" style="width: 1000px;">
                     <p style="display: flex;flex-direction: column;">
                         <span class="ft-by-one" style="font-size: 50px;font-weight: 900;">เทศบาลตำบลบ้านโพธิ์</span>
-                        <span class="ft-by-two" style="font-size: 24px;margin-top: -15px;    font-weight: 700;">Thakam
-                            Subdistrict
-                            Municipality</span>
+                        <span class="ft-by-two" style="font-size: 24px;margin-top: -15px;    font-weight: 700;">BanPho Subdistict Municipality</span>
                         <span class="ft-by-three" style="font-size: 16px;    font-weight: 500;">222 หมู่ที่ 1 ตำบลบ้านโพธิ์ อำเภอบ้านโพธิ์ </span>
                         <span class="ft-by-three" style="font-size: 16px;    font-weight: 500;">จังหวัดฉะเชิงเทรา
                             24140</span>
