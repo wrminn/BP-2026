@@ -51,13 +51,29 @@ class HomeController extends Controller
             ->limit(1)
             ->get();
 
-        $activity = $list = DB::table('texteditor')
+        // $activity = $list = DB::table('texteditor')
+        //     ->leftJoin('texteditor_detail', function ($join) {
+        //         $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
+        //             ->where('texteditor_detail.texteditor_display', '=', 'A');
+        //     })
+        //     ->where('texteditor.texteditor_menu', 51)
+        //     ->where('texteditor.texteditor_display', '=', 'A')
+        //     ->orderBy('texteditor.texteditor_date_show', 'desc')
+        //     ->orderBy('texteditor.texteditor_id', 'desc')
+        //     ->limit(6)
+        //     ->get();
+         $activity = DB::table('texteditor')
             ->leftJoin('texteditor_detail', function ($join) {
                 $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
-                    ->where('texteditor_detail.texteditor_display', '=', 'A');
+                    ->where('texteditor_detail.texteditor_display', 'A');
             })
             ->where('texteditor.texteditor_menu', 51)
-            ->where('texteditor.texteditor_display', '=', 'A')
+            ->where('texteditor.texteditor_display', 'A')
+            ->select(
+                'texteditor.texteditor_id as main_id',
+                'texteditor.*',
+                'texteditor_detail.*'
+            )
             ->orderBy('texteditor.texteditor_date_show', 'desc')
             ->orderBy('texteditor.texteditor_id', 'desc')
             ->limit(6)
@@ -103,13 +119,13 @@ class HomeController extends Controller
             ->get();
 
         $egp = DB::table('egp_announcements')
-            ->where('deptsub_id', "524040624000001")
+            ->where('deptsub_id', "1509900857")
             ->orderBy('pub_date', 'desc')
             ->limit(6)
             ->get();
 
         $listMenu48 = DB::table('texteditor')
-            ->where('texteditor_menu', 48)
+            ->where('texteditor_menu', 42)
             ->where('texteditor_display', "A")
             ->orderBy('texteditor_date_show', 'desc')
             ->orderBy('texteditor_id', 'desc')
@@ -117,7 +133,7 @@ class HomeController extends Controller
             ->get();
 
         $listMenu49 = DB::table('texteditor')
-            ->where('texteditor_menu', 49)
+            ->where('texteditor_menu', 43)
             ->where('texteditor_display', "A")
             ->orderBy('texteditor_date_show', 'desc')
             ->orderBy('texteditor_id', 'desc')
@@ -125,7 +141,7 @@ class HomeController extends Controller
             ->get();
 
         $listMenu50 = DB::table('texteditor')
-            ->where('texteditor_menu', 50)
+            ->where('texteditor_menu', 44)
             ->where('texteditor_display', "A")
             ->orderBy('texteditor_date_show', 'desc')
             ->orderBy('texteditor_id', 'desc')

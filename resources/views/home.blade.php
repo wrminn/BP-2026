@@ -129,8 +129,7 @@
                     class="" target="_blank">
                     <img src="/img/SmartCity/SMT-4.png" class="banner-smartcity no-underline">
                 </a> --}}
-                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
-                    target="_blank">
+                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class="" target="_blank">
                     <img src="/img/SmartCity/SMT-5.png" class="banner-smartcity no-underline">
                 </a>
                 <a href="http://www.damrongdhama.moi.go.th/home/" class="" target="_blank">
@@ -227,7 +226,7 @@
 
                 @forelse($activity as $list)
                     <div class="card-activity">
-                        <a href="/directoryDetail/menu/51/id/{{ $list->texteditor_id }}" class="no-underline">
+                        <a href="/directoryDetail/menu/51/id/{{ $list->main_id }}" class="no-underline">
                             <div class="card-activity-body">
 
                                 <div class="activity-img">
@@ -306,7 +305,7 @@
 
                 @forelse($listMenu52 as $list)
                     <div class="card-activity">
-                        <a href="/directoryDetail/menu/52/id/{{ $list->texteditor_id }}" class="no-underline">
+                        <a href="/directoryDetail/menu/52/id/{{ $list->main_id }}" class="no-underline">
                             <div class="card-new-body">
 
                                 <div class="activity-img">
@@ -680,7 +679,7 @@
 
             </div>
         </div> --}}
-        <div class="e-book">
+        {{-- <div class="e-book">
             <div class="content-book">
 
                 @forelse($elibrary as $slide)
@@ -712,7 +711,7 @@
         <div class="box-all-book">
             <a href="/elibrary/menu/78" class="no-underline button-book-all">ดูทั้งหมด</a>
         </div>
-        </div>
+        </div> --}}
     </section>
 
     <section class="box-vote">
@@ -748,7 +747,10 @@
         </div>
         <div class="map-two">
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.950947539581!2d101.07593607485305!3d13.599808186776418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3c23b6e73297%3A0xdd50d3ae11f0ad1b!2z4LiX4Li14LmI4Lin4LmI4Liy4LiB4Liy4Lij4Lit4Liz4LmA4Lig4Lit4Lia4LmJ4Liy4LiZ4LmC4Lie4LiY4Li04LmM!5e0!3m2!1sth!2sth!4v1779636986326!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.950947539581!2d101.07593607485305!3d13.599808186776418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3c23b6e73297%3A0xdd50d3ae11f0ad1b!2z4LiX4Li14LmI4Lin4LmI4Liy4LiB4Liy4Lij4Lit4Liz4LmA4Lig4Lit4Lia4LmJ4Liy4LiZ4LmC4Lie4LiY4Li04LmM!5e0!3m2!1sth!2sth!4v1779636986326!5m2!1sth!2sth"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="map-three">
             <div class="text-map-three">

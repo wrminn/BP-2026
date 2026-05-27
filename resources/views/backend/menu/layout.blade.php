@@ -194,7 +194,7 @@
                     <a href="/backend/articles/menu/62">ระบบสารสนเทศ</a>
                     <a href="/backend/directory/menu/63">ศูนย์พัฒนาเด็กเล็ก</a>
                     <a href="/backend/directory/menu/64">กองทุนหลักประกันสุขภาพ (สปสช.)</a>
-                    <a href="/backend/directory/menu/65">แนะนำร้านอาหาร</a>
+                    <a href="/backend/directory/menu/65">แนะนำสถานที่ท่องเที่ยว</a>
                 </div>
                 
             </div>

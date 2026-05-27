@@ -255,7 +255,7 @@
                     <a href="/backend/articles/menu/63">ประชาสัมพันธ์การเลือกตั้ง</a>
                     <a href="/backend/directory/menu/64/cate/0">รายงานกิจการสภา</a>
                     <a href="/backend/directory/menu/65">แนะนำสถานที่ท่องเที่ยว</a>
-                    <a href="/backend/directory/menu/66">แนะนำร้านอาหาร</a>
+                    <a href="/backend/directory/menu/66">แนะนำสถานที่ท่องเที่ยว</a>
                 </div>
 
             </div> --}}
@@ -277,7 +277,7 @@
                 {{-- <a href="/backend/articles/menu/63">ประชาสัมพันธ์การเลือกตั้ง</a> --}}
                 <a href="/backend/directory/menu/64/cate/0">รายงานกิจการสภา</a>
                 <a href="/backend/directory/menu/65">แนะนำสถานที่ท่องเที่ยว</a>
-                <a href="/backend/directory/menu/66">แนะนำร้านอาหาร</a>
+                <a href="/backend/directory/menu/66">แนะนำสถานที่ท่องเที่ยว</a>
                 <a href="/backend/directory/menu/79">กองทุนหลักประกันสุขภาพ สปสช.</a>
                 <a href="/backend/directory/menu/80">พรบ.อำนวยความสะดวก</a>
             </div>
