@@ -561,9 +561,12 @@
                                     $year = $date->year + 543;
                                 @endphp
                                 <div class="box-activity-id">
-                                    <div class="activity-title"><b>{{ $list->texteditor_title }}</b></div>
+                                    <div class="activity-title"><b>
+                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_title)), 60) !!}
+                                        {{-- {{ $list->texteditor_title }} --}}
+                                    </b></div>
                                     <div class="activity-detail">
-                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 100) !!}
+                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 30) !!}
                                     </div>
                                     <div class="activity-date">{{ $day }} {{ $month }}
                                         {{ $year }}
