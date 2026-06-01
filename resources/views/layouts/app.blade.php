@@ -249,6 +249,7 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade position-relative">
                     <div class="carousel-inner">
                         @forelse($SlideTop as $key => $slide)
+                        
                             <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
                                 @php
                                     $extension = pathinfo($slide->slide_path, PATHINFO_EXTENSION);
@@ -275,22 +276,7 @@
                                     alt="..." style="width: 1905px; height:600px; object-fit: cover;">
                             </div>
                         @endforelse
-                        {{-- <div class="carousel-item active">
-                            <img src="{{ asset('/img/personnel/0004.png') }}" class="d-block w-100" alt="slide 1"
-                                style="object-fit: cover; height: auto;width:100% !important">
-                        </div>
-                        <div class="button-topnayok">
-                            <div class="box-topnayok">
-                                <a href="/directory/menu/71"><img src="/img/personnel/สารจากนายก.png"
-                                        class="banner-top-img-topnayok">
-                                </a>
-                            </div>
-                            <div class="box-topnayok">
-                                <a href="/directory/menu/72"><img src="/img/personnel/เจตจำนงสุจริต.png"
-                                        class="banner-top-img-topnayok">
-                                </a>
-                            </div>
-                        </div> --}}
+                      
                     </div>
                 </div>
 

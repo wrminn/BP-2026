@@ -38,7 +38,7 @@ class HomeController extends Controller
             ->first();
 
         $SlideMenu70 = Slide::active()
-            ->where('slide_menu', 70)
+            ->where('slide_menu', 49)
             ->where('slide_display', "A")
             ->orderBy('slide_id', 'desc')
             ->limit(3)
@@ -51,23 +51,12 @@ class HomeController extends Controller
             ->limit(1)
             ->get();
 
-        // $activity = $list = DB::table('texteditor')
-        //     ->leftJoin('texteditor_detail', function ($join) {
-        //         $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
-        //             ->where('texteditor_detail.texteditor_display', '=', 'A');
-        //     })
-        //     ->where('texteditor.texteditor_menu', 51)
-        //     ->where('texteditor.texteditor_display', '=', 'A')
-        //     ->orderBy('texteditor.texteditor_date_show', 'desc')
-        //     ->orderBy('texteditor.texteditor_id', 'desc')
-        //     ->limit(6)
-        //     ->get();
          $activity = DB::table('texteditor')
             ->leftJoin('texteditor_detail', function ($join) {
                 $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
                     ->where('texteditor_detail.texteditor_display', 'A');
             })
-            ->where('texteditor.texteditor_menu', 51)
+            ->where('texteditor.texteditor_menu', 52)
             ->where('texteditor.texteditor_display', 'A')
             ->select(
                 'texteditor.texteditor_id as main_id',
@@ -80,24 +69,13 @@ class HomeController extends Controller
             ->get();
 
 
-        // $listMenu52 = $list = DB::table('texteditor')
-        //     ->leftJoin('texteditor_detail', function ($join) {
-        //         $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
-        //             ->where('texteditor_detail.texteditor_display', '=', 'A');
-        //     })
-        //     ->where('texteditor.texteditor_menu', 52)
-        //     ->where('texteditor.texteditor_display', '=', 'A')
-        //     ->orderBy('texteditor.texteditor_date_show', 'desc')
-        //     ->orderBy('texteditor.texteditor_id', 'desc')
-        //     ->limit(6)
-        //     ->get();
 
         $listMenu52 = DB::table('texteditor')
             ->leftJoin('texteditor_detail', function ($join) {
                 $join->on('texteditor.texteditor_id', '=', 'texteditor_detail.texteditor_id')
                     ->where('texteditor_detail.texteditor_display', 'A');
             })
-            ->where('texteditor.texteditor_menu', 52)
+            ->where('texteditor.texteditor_menu', 53)
             ->where('texteditor.texteditor_display', 'A')
             ->select(
                 'texteditor.texteditor_id as main_id',
@@ -202,7 +180,7 @@ class HomeController extends Controller
         // print_r($egp);
         // exit();
 
-        return view('home', compact('video', 'SlideMenu70', 'SlideMenu88','activity', 'listMenu52', 'SlideMenu8', 'egp', 'listMenu48', 'listMenu49', 'listMenu50', 'Vote', 'stats', 'elibrary', 'egp'));
+        return view('home', compact('video','SlideMenu70', 'SlideMenu88','activity', 'listMenu52', 'SlideMenu8', 'egp', 'listMenu48', 'listMenu49', 'listMenu50', 'Vote', 'stats', 'elibrary', 'egp'));
     }
 
     public function save(Request $request)

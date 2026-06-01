@@ -3,6 +3,210 @@
 @section('content')
     <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 
+    <section class="box-personnel">
+        <div class="title-personnel">คณะผู้บริหาร</div>
+        {{-- <div class="personnel-box">
+            <div class="personnel-box-p1">
+                <div id="carouselpersonnel" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel"
+                    data-bs-interval="3500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/personnel/นายกanimate/นายก-1.png" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/personnel/นายกanimate/นายก-2.png" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/personnel/นายกanimate/นายก-3.png" class="d-block" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="personnel-box-detail-ny">
+                    <div class="per-b-name">นางสมจิตร์ พันธุ์สุวรรณ</div>
+                    <div class="per-b-position">นายกเทศมนตรีตำบลท่าข้าม</div>
+                </div>
+                <div class="per-b-tel">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="p-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <a href="tel:038573411" class="no-underline">038573411</a>
+                </div>
+            </div>
+            <div class="personnel-box-group">
+                <div class="personnel-box-group-one">
+
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/รองนายก1.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นายสมประสงค์ สายสิณะวัฒน์</div>
+                            <div class="per-b-position-p2">รองนายกเทศมนตรีตำบลท่าข้าม </div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/รองนายก2.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นายสมศักดิ์ จรุญเลิศ</div>
+                            <div class="per-b-position-p2">รองนายกเทศมนตรีตำบลท่าข้าม </div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/ที่ปรึกษา1.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นางพรภินันท์ ภู่ทวี</div>
+                            <div class="per-b-position-p2">ที่ปรึกษานายกเทศมนตรีตำบลท่าข้าม</div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/ที่ปรึกษา2.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นายวสันต์ วรรณทอง</div>
+                            <div class="per-b-position-p2">ที่ปรึกษานายกเทศมนตรีตำบลท่าข้าม</div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="personnel-box-group-two">
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/ที่ปรึกษาพิเศษ1.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นายพิชัย พันธุ์สุวรรณ</div>
+                            <div class="per-b-position-p2">ที่ปรึกษาพิเศษ </div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/ที่ปรึกษาพิเศษ2.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นามานิตย์ ดีเอื้อ</div>
+                            <div class="per-b-position-p2">ที่ปรึกษาพิเศษ</div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                    <div class="personnel-box-p2">
+                        <img src="/img/personnel/ที่ปรึกษาพิเศษ3.png" class="img-personnel">
+                        <div class="person-box-background"></div>
+                        <div class="personnel-box-detail-p2">
+                            <div class="per-b-name-p2">นางมณี จิตมาศฐาน</div>
+                            <div class="per-b-position-p2">ที่ปรึกษาพิเศษ</div>
+                        </div>
+                        <div class="per-b-tel-p2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="p-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <a href="tel:038573411" class="no-underline">038573411</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        <div class="box-iii">
+         <div class="box-personnel-iii bnp01">
+             <img src="/img/personnel/0601001.png" alt="" class="bg-ons-button-bnp01">
+             <div class="name-bnp01">นายรุ่งโรจน์ กิติพิศาลกุล</div>
+             <div class="ii">นายกเทศมนตรีตำบลบ้านโพธิ์</div>
+             <div class="tel-i"><a href="tel:0637952282">06-3795-2282</a></div>
+        </div>
+         <div class="box-personnel-iii bnp02">
+             <img src="/img/personnel/0601002.png" alt="" class="bg-ons-button-bnp02">
+             <div class="name-bnp02">นายจำเนียร จันทร์สร้อย</div>
+             <div class="ii">รองนายกเทศมนตรีตำบลบ้านโพธิ์</div>
+             <div class="tel-i"><a href="tel:0867335064">08-6733-5064</a></div>
+        </div>
+         <div class="box-personnel-iii bnp03">
+             <img src="/img/personnel/0601003.png" alt="" class="bg-ons-button-bnp03">
+             <div class="name-bnp03">นายไชยวัฒน์ ศรีวิไลสกุลวงศ์</div>
+             <div class="ii">รองนายกเทศมนตรีตำบลบ้านโพธิ์</div>
+             <div class="tel-i"><a href="tel:08-1910-0491">08-1910-0491</a></div>
+        </div>
+         <div class="box-personnel-iii bnp04">
+             <img src="/img/personnel/0601004.png" alt="" class="bg-ons-button-bnp04">
+             <div class="name-bnp04">นายณัฐพล วงศ์วัฒน์</div>
+             <div class="ii">เลขานุการนายกเทศมนตรี</div>
+             <div class="tel-i"><a href="tel:06-2625-0766">06-2625-0766</a></div>
+        </div>
+         <div class="box-personnel-iii bnp05">
+             <img src="/img/personnel/0601005.png" alt="" class="bg-ons-button-bnp05">
+             <div class="name-bnp05">นายประดิษฐ โรจนพร</div>
+             <div class="ii">ที่ปรึกษานายกเทศมนตรี</div>
+             <div class="tel-i"><a href="tel:08-1686-8366">08-1686-8366</a></div>
+        </div>
+        </div>
+    </section>
+    <div class="banner-new-2026">
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/1.png" class=""> </a>
+        </div>
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/2.png" class=""> </a>
+        </div>
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/3.png" class=""> </a>
+        </div>
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/4.png" class=""> </a>
+        </div>
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/5.png" class=""> </a>
+        </div>
+        <div class="banner-new-2026-i">
+            <a href="/directory/menu/81"><img src="/img/banner2026/6.png" class=""> </a>
+        </div>
+    </div>
     <div class="banner-top-2">
         <div class="divider-line-2"></div>
         <div class="box-iio">
@@ -111,55 +315,72 @@
         </div>
 
     </section>
+    <section class="banner-one-stop-service">
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/waste_payment" target="_blank"> <img
+                    src="/img/OneStopService/bn01.jpg" alt="" class="bg-ons-button-bn01"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn02.jpg" alt="" class="bg-ons-button-bn02"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn03.jpg" alt="" class="bg-ons-button-bn03"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn04.jpg" alt="" class="bg-ons-button-bn04"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn05.jpg" alt="" class="bg-ons-button-bn05"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn06.jpg" alt="" class="bg-ons-button-bn06"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn07.jpg" alt="" class="bg-ons-button-bn07"></a>
+        </div>
+        <div class="box-one-stop-service">
+            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+                <img src="/img/OneStopService/bn08.jpg" alt="" class="bg-ons-button-bn08"></a>
+        </div>
 
+        <img src="/img/OneStopService/001.jpg" alt="" class="bg-ons">
+
+    </section>
     <section class="banner-box-one">
         <div class="banner-smartcity-body-one">
             <div class="smartcity-one">
-                {{-- <a href="https://asean.org/our-communities/economic-community-1/" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-1.png" class="banner-smartcity no-underline">
-                </a> --}}
                 <a href="https://thakam.go.th/directory/menu/7" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-2.png" class="banner-smartcity no-underline">
+                    <img src="/img/SmartCity/Eservice.jpg" class="banner-smartcity no-underline">
                 </a>
-                {{-- <a href="https://infocenter.oic.go.th/%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%20%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2/index.php?gid=0&mid=1012"
-                    class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-3.png" class="banner-smartcity no-underline">
-                </a> --}}
-                {{-- <a href="https://sites.google.com/view/e-learning-thakam/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81"
-                    class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-4.png" class="banner-smartcity no-underline">
-                </a> --}}
-                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-5.png" class="banner-smartcity no-underline">
+
+                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
+                    target="_blank">
+                    <img src="/img/SmartCity/ศูนย์ดำรงธรรม.png" class="banner-smartcity no-underline">
+                </a>
+
+            </div>
+            <div class="smartcity-one">
+                <a href="https://thakam.go.th/directory/menu/7" class="" target="_blank">
+                    <img src="/img/SmartCity/Facebook.png" class="banner-smartcity no-underline">
+                </a>
+
+                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
+                    target="_blank">
+                    <img src="/img/SmartCity/ศาลปกครอง.png" class="banner-smartcity no-underline">
                 </a>
                 <a href="http://www.damrongdhama.moi.go.th/home/" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-6.png" class="banner-smartcity no-underline">
+                    <img src="/img/SmartCity/OIC (2).png" class="banner-smartcity no-underline">
                 </a>
-                <a href="https://www.nacc.go.th/NACCPPWFC?" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-7.png" class="banner-smartcity no-underline">
-                </a>
+
                 <a href="https://pr.moi.go.th/citizenknowledge.htm" class="" target="_blank">
-                    <img src="/img/SmartCity/SMT-8.png" class="banner-smartcity no-underline">
+                    <img src="/img/SmartCity/ปปข.png" class="banner-smartcity no-underline">
                 </a>
-                {{-- <div class="regis-smartcity-box">
-                    <div class="three-text">
-                        <div> ระบบจองห้องประชุมและ</div>
-                        <div>เครื่องเสียงห้องประชุม</div>
-                    </div>
-                    <div class="regis-smartcity">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6bQ5WfgSTI8lq8Xo4VfA3FZ1FKgIc-_lhF-YKuIPewfGItg/viewform"
-                            class="" target="_blank">
-                            <img src="/img/SmartCity/Banner4-2-1.png" class="banner-smartcity no-underline">
-                        </a>
-                        <a href="https://calendar.google.com/calendar/u/0/embed?src=7urnqsg4qsg6hki6c1666k5psg@group.calendar.google.com&ctz=Asia/Bangkok"
-                            class="" target="_blank">
-                            <img src="/img/SmartCity/Banner4-3-1.png" class="banner-smartcity no-underline">
-                        </a>
-                    </div>
-                </div>
-                <a href="https://www.enic8r.com/" target="_blank">
-                    <img src="/img/SmartCity/smartcity.png" class="banner-smartcity no-underline">
-                </a> --}}
             </div>
         </div>
     </section>
@@ -189,28 +410,8 @@
             </div>
         </div>
         <img src="/img/OneStopService/oss.jpg" alt="" class="bg-ons">
-        <div class="box-slide-menu">
 
-            <div id="carouselExampleSlides" class="carousel slide carousel-fade" data-bs-ride="carousel"
-                data-bs-interval="2500">
-                <!-- สไลด์ -->
-                <div class="carousel-inner">
-                    @forelse($SlideMenu70 as $slide)
-                        <a href="/slideDetail/menu/70/id/{{ $slide->slide_id }}">
-                            <div class="carousel-item active">
-                                <img src="{{ asset('storage/' . $slide->slide_path) }}" class="d-block w-100 slide-8"
-                                    alt="..." style="width: 1586px; height:625px">
-                            </div>
-                        </a>
-                    @empty
-                        <div class="">ไม่พบข้อมูล</div>
-                    @endforelse
-                </div>
-            </div>
-
-        </div>
     </section> --}}
-
 
 
     <section class="box-activity-relations">
@@ -288,6 +489,26 @@
                     <a href="/directory/menu/51" class="no-underline button-activity-all">ดูข่าวกิจกรรมทั้งหมด</a>
                 </div>
             @endif
+
+        </div>
+        <div class="box-slide-menu">
+
+            <div id="carouselExampleSlides" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                data-bs-interval="2500">
+                <!-- สไลด์ -->
+                <div class="carousel-inner">
+                    @forelse($SlideMenu70 as $slide)
+                        <a href="/slideDetail/menu/70/id/{{ $slide->slide_id }}">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('storage/' . $slide->slide_path) }}" class="d-block w-100 slide-8"
+                                    alt="..." style="width: 1586px; height:625px">
+                            </div>
+                        </a>
+                    @empty
+                        <div class="">ไม่พบข้อมูล</div>
+                    @endforelse
+                </div>
+            </div>
 
         </div>
         <div class="box-news">
@@ -746,11 +967,11 @@
             </div>
         </div>
         <div class="map-two">
-
-            <iframe
+            <img src="/img/11map/Map.png" alt="" style="width: 100%;">
+            {{-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.950947539581!2d101.07593607485305!3d13.599808186776418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3c23b6e73297%3A0xdd50d3ae11f0ad1b!2z4LiX4Li14LmI4Lin4LmI4Liy4LiB4Liy4Lij4Lit4Liz4LmA4Lig4Lit4Lia4LmJ4Liy4LiZ4LmC4Lie4LiY4Li04LmM!5e0!3m2!1sth!2sth!4v1779636986326!5m2!1sth!2sth"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
         </div>
         <div class="map-three">
             <div class="text-map-three">

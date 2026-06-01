@@ -25,8 +25,13 @@ class ViewServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::composer('layouts.app', function ($view) {
+            // $SlideTop = Slide::active()
+            //     ->where('slide_menu', 68)
+            //     ->orderBy('slide_id', 'desc')
+            //     ->get();
+
             $SlideTop = Slide::active()
-                ->where('slide_menu', 68)
+                ->where('slide_menu', 47)
                 ->orderBy('slide_id', 'desc')
                 ->get();
 
