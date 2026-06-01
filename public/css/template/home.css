@@ -2195,9 +2195,10 @@ img.bg-ons-button-bn08 {
     align-items: center;
 }
 
-.bg-ons-button-bnp01{
+.bg-ons-button-bnp01 {
     width: 150px;
 }
+
 .bg-ons-button-bnp02,
 .bg-ons-button-bnp03,
 .bg-ons-button-bnp04,
@@ -2205,11 +2206,7 @@ img.bg-ons-button-bn08 {
     width: 120px;
 }
 
-.name-bnp01,
-.name-bnp02,
-.name-bnp03,
-.name-bnp04,
-.name-bnp05 {
+.name-bnp01 {
     background: #a2c9ec;
     padding: 10px;
     font-size: 22px;
@@ -2217,24 +2214,37 @@ img.bg-ons-button-bn08 {
     margin-top: -45px;
 }
 
+.name-bnp02,
+.name-bnp03,
+.name-bnp04,
+.name-bnp05 {
+    font-size: 14px;
+    background: #a2c9ec;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: -41px;
+}
+
+
+
 .box-personnel-iii.bnp01 {
-    transform: translate(112%, 69%);
+    transform: translate(116%, 80%);
 }
 
 .box-personnel-iii.bnp02 {
-    transform: translate(150%, 63%);
+    transform: translate(186%, 90%);
 }
 
 .box-personnel-iii.bnp03 {
-    transform: translate(103%, 96%);
+    transform: translate(186%, 120%);
 }
 
 .box-personnel-iii.bnp04 {
-        transform: translate(140%, 80%);
+    transform: translate(295%, 102%);
 }
 
 .box-personnel-iii.bnp05 {
-    transform: translate(120%, 85%);
+    transform: translate(332%, 85%);
 }
 
 .box-iii {

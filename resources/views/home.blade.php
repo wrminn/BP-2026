@@ -189,22 +189,22 @@
     </section>
     <div class="banner-new-2026">
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/1.png" class=""> </a>
+            <a href="/directory/menu/50"><img src="/img/banner2026/1.png" class=""> </a>
         </div>
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/2.png" class=""> </a>
+            <a href="/articles/menu/51"><img src="/img/banner2026/2.png" class=""> </a>
         </div>
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/3.png" class=""> </a>
+            <a href="/complaint/menu/35"><img src="/img/banner2026/3.png" class=""> </a>
         </div>
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/4.png" class=""> </a>
+            <a href="/corruption/menu/36"><img src="/img/banner2026/4.png" class=""> </a>
         </div>
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/5.png" class=""> </a>
+            <a href="/directory/menu/57"><img src="/img/banner2026/5.png" class=""> </a>
         </div>
         <div class="banner-new-2026-i">
-            <a href="/directory/menu/81"><img src="/img/banner2026/6.png" class=""> </a>
+            <a href="/directory/menu/58"><img src="/img/banner2026/6.png" class=""> </a>
         </div>
     </div>
     <div class="banner-top-2">
@@ -317,35 +317,35 @@
     </section>
     <section class="banner-one-stop-service">
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/waste_payment" target="_blank"> <img
+            <a href="/categories/menu/38" target="_blank"> <img
                     src="/img/OneStopService/bn01.jpg" alt="" class="bg-ons-button-bn01"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="/directory/menu/39" target="_blank">
                 <img src="/img/OneStopService/bn02.jpg" alt="" class="bg-ons-button-bn02"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="/satisfaction/menu/54" target="_blank">
                 <img src="/img/OneStopService/bn03.jpg" alt="" class="bg-ons-button-bn03"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="#" target="_blank">
                 <img src="/img/OneStopService/bn04.jpg" alt="" class="bg-ons-button-bn04"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="#" target="_blank">
                 <img src="/img/OneStopService/bn05.jpg" alt="" class="bg-ons-button-bn05"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="/webboard/menu/56" target="_blank">
                 <img src="/img/OneStopService/bn06.jpg" alt="" class="bg-ons-button-bn06"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="/categories/menu/38" target="_blank">
                 <img src="/img/OneStopService/bn07.jpg" alt="" class="bg-ons-button-bn07"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="https://thakam.trash.sosmartsolution.com/user/request/health_hazard_license" target="_blank">
+            <a href="/webboard/menu/56" target="_blank">
                 <img src="/img/OneStopService/bn08.jpg" alt="" class="bg-ons-button-bn08"></a>
         </div>
 
@@ -355,30 +355,30 @@
     <section class="banner-box-one">
         <div class="banner-smartcity-body-one">
             <div class="smartcity-one">
-                <a href="https://thakam.go.th/directory/menu/7" class="" target="_blank">
+                <a href="/listformeservice/menu/40" class="" target="_blank">
                     <img src="/img/SmartCity/Eservice.jpg" class="banner-smartcity no-underline">
                 </a>
 
-                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
+                <a href="http://www.damrongdhama.moi.go.th/home/" class=""
                     target="_blank">
                     <img src="/img/SmartCity/ศูนย์ดำรงธรรม.png" class="banner-smartcity no-underline">
                 </a>
 
             </div>
             <div class="smartcity-one">
-                <a href="https://thakam.go.th/directory/menu/7" class="" target="_blank">
+                <a href="https://www.facebook.com/thesbal.tabl.banphothi.chacheingthera/reels/" class="" target="_blank">
                     <img src="/img/SmartCity/Facebook.png" class="banner-smartcity no-underline">
                 </a>
 
-                <a href="https://www.admincourt.go.th/admincourt/site/09illustration.html" class=""
+                <a href="https://www.admincourt.go.th/" class=""
                     target="_blank">
                     <img src="/img/SmartCity/ศาลปกครอง.png" class="banner-smartcity no-underline">
                 </a>
-                <a href="http://www.damrongdhama.moi.go.th/home/" class="" target="_blank">
+                <a href="https://www.gprocurement.go.th/homepage.html" class="" target="_blank">
                     <img src="/img/SmartCity/OIC (2).png" class="banner-smartcity no-underline">
                 </a>
 
-                <a href="https://pr.moi.go.th/citizenknowledge.htm" class="" target="_blank">
+                <a href="https://www.nacc.go.th/" class="" target="_blank">
                     <img src="/img/SmartCity/ปปข.png" class="banner-smartcity no-underline">
                 </a>
             </div>
@@ -650,15 +650,15 @@
                         class="button-here-text" alt=""></a>
                 <a href="/webboard/menu/75"> <img src="/img/here/BannerText/Banner-Down-2-text.png"
                         class="button-here-text" alt=""></a>
-                <a href="/directory/menu/56"> <img src="/img/here/BannerText/Banner-Down-3-text.png"
+                {{-- <a href="/directory/menu/56"> <img src="/img/here/BannerText/Banner-Down-3-text.png"
+                        class="button-here-text" alt=""></a> --}}
+                {{-- <a href="/categories/menu/61"> <img src="/img/here/BannerText/Banner-Down-4-text.png"
+                        class="button-here-text" alt=""></a> --}}
+                {{-- <a href="https://eservice-thakam.sosmartsolution.com/FormeService/id/1" target="_blank"> <img
+                        src="/img/here/BannerText/Banner-Down-5-text.png" class="button-here-text" alt=""></a> --}}
+                <a href="/directory/menu/59"> <img src="/img/here/BannerText/Banner-Down-6-text.png"
                         class="button-here-text" alt=""></a>
-                <a href="/categories/menu/61"> <img src="/img/here/BannerText/Banner-Down-4-text.png"
-                        class="button-here-text" alt=""></a>
-                <a href="https://eservice-thakam.sosmartsolution.com/FormeService/id/1" target="_blank"> <img
-                        src="/img/here/BannerText/Banner-Down-5-text.png" class="button-here-text" alt=""></a>
-                <a href="/directory/menu/60"> <img src="/img/here/BannerText/Banner-Down-6-text.png"
-                        class="button-here-text" alt=""></a>
-                <a href="/categories/menu/64"> <img src="/img/here/BannerText/Banner-Down-7-text.png"
+                <a href="/categories/menu/60"> <img src="/img/here/BannerText/Banner-Down-7-text.png"
                         class="button-here-text" alt=""></a>
             </div>
 
