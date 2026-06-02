@@ -32,7 +32,8 @@
 
         .deputy img,
         .leader img {
-            width: 200px;
+            /* width: 200px; */
+            width: auto ;
             border-radius: 8px;
             cursor: pointer;
             transition: transform .2s;

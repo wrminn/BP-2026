@@ -315,6 +315,7 @@
         </div>
 
     </section>
+
     <section class="banner-one-stop-service">
         <div class="box-one-stop-service">
             <a href="/categories/menu/38" target="_blank"> <img
@@ -329,11 +330,11 @@
                 <img src="/img/OneStopService/bn03.jpg" alt="" class="bg-ons-button-bn03"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="#" target="_blank">
+            <a href="https://welfare.dla.go.th/webview/" target="_blank">
                 <img src="/img/OneStopService/bn04.jpg" alt="" class="bg-ons-button-bn04"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="#" target="_blank">
+            <a href="https://welfare.dla.go.th/webview/" target="_blank">
                 <img src="/img/OneStopService/bn05.jpg" alt="" class="bg-ons-button-bn05"></a>
         </div>
         <div class="box-one-stop-service">
@@ -374,7 +375,7 @@
                     target="_blank">
                     <img src="/img/SmartCity/ศาลปกครอง.png" class="banner-smartcity no-underline">
                 </a>
-                <a href="https://www.gprocurement.go.th/homepage.html" class="" target="_blank">
+                <a href="https://infocenter.oic.go.th/%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B9%8C%20%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2" class="" target="_blank">
                     <img src="/img/SmartCity/OIC (2).png" class="banner-smartcity no-underline">
                 </a>
 
@@ -427,7 +428,7 @@
 
                 @forelse($activity as $list)
                     <div class="card-activity">
-                        <a href="/directoryDetail/menu/51/id/{{ $list->main_id }}" class="no-underline">
+                        <a href="/directoryDetail/menu/52/id/{{ $list->main_id }}" class="no-underline">
                             <div class="card-activity-body">
 
                                 <div class="activity-img">
@@ -467,16 +468,16 @@
                                 <div class="activity-date">{{ $day }} {{ $month }} {{ $year }}
                                 </div>
                                 <div class="activity-title">
-                                    {{ \Illuminate\Support\Str::limit($list->texteditor_title, 50) }}</div>
+                                    {{ \Illuminate\Support\Str::limit($list->texteditor_title, 20) }}</div>
                                 <div class="activity-detail">
-                                    {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 100) !!}
+                                    {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 10) !!}
 
 
                                 </div>
 
                             </div>
                         </a>
-                        <a href="/directoryDetail/menu/51/id/{{ $list->texteditor_id }}"
+                        <a href="/directoryDetail/menu/52/id/{{ $list->texteditor_id }}"
                             class="no-underline button-activity">อ่านเพิ่มเติม</a>
                     </div>
                 @empty
@@ -486,7 +487,7 @@
             </div>
             @if (!empty($activity))
                 <div class="box-all-activity">
-                    <a href="/directory/menu/51" class="no-underline button-activity-all">ดูข่าวกิจกรรมทั้งหมด</a>
+                    <a href="/directory/menu/52" class="no-underline button-activity-all">ดูข่าวกิจกรรมทั้งหมด</a>
                 </div>
             @endif
 
@@ -509,8 +510,8 @@
                     @endforelse
                 </div>
             </div>
-
         </div>
+
         <div class="box-news">
             <div class="title-news">
                 <div class="text-news">
@@ -526,7 +527,7 @@
 
                 @forelse($listMenu52 as $list)
                     <div class="card-activity">
-                        <a href="/directoryDetail/menu/52/id/{{ $list->main_id }}" class="no-underline">
+                        <a href="/directoryDetail/menu/53/id/{{ $list->main_id }}" class="no-underline">
                             <div class="card-new-body">
 
                                 <div class="activity-img">
@@ -562,11 +563,11 @@
                                 @endphp
                                 <div class="box-activity-id">
                                     <div class="activity-title"><b>
-                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_title)), 60) !!}
+                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_title)), 20) !!}
                                         {{-- {{ $list->texteditor_title }} --}}
                                     </b></div>
                                     <div class="activity-detail">
-                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 30) !!}
+                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 10) !!}
                                     </div>
                                     <div class="activity-date">{{ $day }} {{ $month }}
                                         {{ $year }}
@@ -582,7 +583,7 @@
             </div>
             @if (!empty($activity))
                 <div class="box-all-news">
-                    <a href="/directory/menu/52" class="no-underline button-news-all">ดูข่าวประชาสัมพันธ์ทั้งหมด</a>
+                    <a href="/directory/menu/53" class="no-underline button-news-all">ดูข่าวประชาสัมพันธ์ทั้งหมด</a>
                 </div>
             @endif
 
@@ -636,7 +637,7 @@
                 </div>
             </div>
             <div class="box-all-here">
-                <a href="/directoryDetail/menu/8" class="no-underline button-here-all">ดูสถานที่ทั้งหมด</a>
+                <a href="/directory/menu/8" class="no-underline button-here-all">ดูสถานที่ทั้งหมด</a>
             </div>
         </div>
         <div class="banner-service-one">
