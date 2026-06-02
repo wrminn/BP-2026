@@ -210,7 +210,7 @@
     <div class="banner-top-2">
         <div class="divider-line-2"></div>
         <div class="box-iio">
-            <a href="/directory/menu/81"><img src="/img/banner/0001.png" class="banner-top-img-2"> </a>
+            <a href="/directory/menu/38/cate/95"><img src="/img/banner/0001.png" class="banner-top-img-2"> </a>
         </div>
         <div class="box-iio">
             <a href="https://eservice-thakam.sosmartsolution.com/FormeService/id/3" target="_blank"><img
@@ -238,7 +238,7 @@
             <a href="/webboard/menu/75"><img src="/img/banner/0008.png" class="banner-top-img-2"></a>
         </div>
         <div class="box-iio">
-            <a href="/directory/menu/82"><img src="/img/banner/0009.png" class="banner-top-img-2"></a>
+            <a href="/directory/menu/38/cate/94"><img src="/img/banner/0009.png" class="banner-top-img-2"></a>
         </div>
         <div class="box-iio">
             <a href="/directory/menu/46"><img src="/img/banner/0010.png" class="banner-top-img-2"></a>
@@ -338,7 +338,7 @@
                 <img src="/img/OneStopService/bn05.jpg" alt="" class="bg-ons-button-bn05"></a>
         </div>
         <div class="box-one-stop-service">
-            <a href="/webboard/menu/56" target="_blank">
+            <a href="/directory/menu/38/cate/95" target="_blank">
                 <img src="/img/OneStopService/bn06.jpg" alt="" class="bg-ons-button-bn06"></a>
         </div>
         <div class="box-one-stop-service">
@@ -468,7 +468,7 @@
                                 <div class="activity-date">{{ $day }} {{ $month }} {{ $year }}
                                 </div>
                                 <div class="activity-title">
-                                    {{ \Illuminate\Support\Str::limit($list->texteditor_title, 20) }}</div>
+                                    {{ \Illuminate\Support\Str::limit($list->texteditor_title, 30) }}</div>
                                 <div class="activity-detail">
                                     {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_detail)), 10) !!}
 
@@ -563,7 +563,7 @@
                                 @endphp
                                 <div class="box-activity-id">
                                     <div class="activity-title"><b>
-                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_title)), 20) !!}
+                                        {!! \Illuminate\Support\Str::limit(trim(strip_tags($list->texteditor_title)), 30) !!}
                                         {{-- {{ $list->texteditor_title }} --}}
                                     </b></div>
                                     <div class="activity-detail">
