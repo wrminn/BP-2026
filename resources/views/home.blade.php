@@ -156,31 +156,31 @@
         </div> --}}
         <div class="box-iii">
          <div class="box-personnel-iii bnp01">
-             <img src="/img/personnel/0601001.png" alt="" class="bg-ons-button-bnp01">
+             <img src="/img/personnel/0601001.png?1" alt="" class="bg-ons-button-bnp01">
              <div class="name-bnp01">นายรุ่งโรจน์ กิติพิศาลกุล</div>
              <div class="ii">นายกเทศมนตรีตำบลบ้านโพธิ์</div>
              <div class="tel-i"><a href="tel:0637952282">06-3795-2282</a></div>
         </div>
          <div class="box-personnel-iii bnp02">
-             <img src="/img/personnel/0601002.png" alt="" class="bg-ons-button-bnp02">
+             <img src="/img/personnel/0601002.png?2" alt="" class="bg-ons-button-bnp02">
              <div class="name-bnp02">นายจำเนียร จันทร์สร้อย</div>
              <div class="ii">รองนายกเทศมนตรีตำบลบ้านโพธิ์</div>
              <div class="tel-i"><a href="tel:0867335064">08-6733-5064</a></div>
         </div>
          <div class="box-personnel-iii bnp03">
-             <img src="/img/personnel/0601003.png" alt="" class="bg-ons-button-bnp03">
+             <img src="/img/personnel/0601003.png?3" alt="" class="bg-ons-button-bnp03">
              <div class="name-bnp03">นายไชยวัฒน์ ศรีวิไลสกุลวงศ์</div>
              <div class="ii">รองนายกเทศมนตรีตำบลบ้านโพธิ์</div>
              <div class="tel-i"><a href="tel:08-1910-0491">08-1910-0491</a></div>
         </div>
          <div class="box-personnel-iii bnp04">
-             <img src="/img/personnel/0601004.png" alt="" class="bg-ons-button-bnp04">
+             <img src="/img/personnel/0601004.png?4" alt="" class="bg-ons-button-bnp04">
              <div class="name-bnp04">นายณัฐพล วงศ์วัฒน์</div>
              <div class="ii">เลขานุการนายกเทศมนตรี</div>
              <div class="tel-i"><a href="tel:06-2625-0766">06-2625-0766</a></div>
         </div>
          <div class="box-personnel-iii bnp05">
-             <img src="/img/personnel/0601005.png" alt="" class="bg-ons-button-bnp05">
+             <img src="/img/personnel/0601005.png?5" alt="" class="bg-ons-button-bnp05">
              <div class="name-bnp05">นายประดิษฐ โรจนพร</div>
              <div class="ii">ที่ปรึกษานายกเทศมนตรี</div>
              <div class="tel-i"><a href="tel:08-1686-8366">08-1686-8366</a></div>
@@ -440,7 +440,7 @@
                                         <img src="{{ asset('storage/' . $list->texteditor_topic_picture) }}"
                                             alt="topic picture" width="420" style="border-radius: 20px">
                                     @else
-                                        <img src="{{ asset('img/representation.png') }}" alt="default logo"
+                                        <img src="{{ asset('img/representation.png?11') }}" alt="default logo"
                                             width="420" style="border-radius: 30px">
                                     @endif
 
@@ -536,7 +536,7 @@
                                             alt="topic picture" width="150" height="150"
                                             style="border-radius: 30px">
                                     @else
-                                        <img src="{{ asset('img/representation.png') }}" alt="default logo"
+                                        <img src="{{ asset('img/representation.png?22') }}" alt="default logo"
                                             width="150" height="150" style="border-radius: 30px">
                                     @endif
 
