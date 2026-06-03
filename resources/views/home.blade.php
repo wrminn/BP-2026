@@ -207,7 +207,7 @@
             <a href="/directory/menu/58"><img src="/img/banner2026/6.png" class=""> </a>
         </div>
     </div>
-    <div class="banner-top-2">
+    {{-- <div class="banner-top-2">
         <div class="divider-line-2"></div>
         <div class="box-iio">
             <a href="/directory/menu/38/cate/95"><img src="/img/banner/0001.png" class="banner-top-img-2"> </a>
@@ -243,7 +243,7 @@
         <div class="box-iio">
             <a href="/directory/menu/46"><img src="/img/banner/0010.png" class="banner-top-img-2"></a>
         </div>
-    </div>
+    </div> --}}
 
     <section class="box-video">
         <div class="video-text">

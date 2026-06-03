@@ -2211,7 +2211,7 @@ img.bg-ons-button-bn08 {
     padding: 10px;
     font-size: 22px;
     border-radius: 7px;
-    margin-top: -45px;
+    margin-top: -5px;
 }
 
 .name-bnp02,
@@ -2222,29 +2222,29 @@ img.bg-ons-button-bn08 {
     background: #a2c9ec;
     padding: 10px;
     border-radius: 7px;
-    margin-top: -41px;
+    margin-top: -10px;
 }
 
 
 
 .box-personnel-iii.bnp01 {
-    transform: translate(116%, 80%);
+    transform: translate(116%, 48%);
 }
 
 .box-personnel-iii.bnp02 {
-    transform: translate(186%, 90%);
+    transform: translate(186%, 64%);
 }
 
 .box-personnel-iii.bnp03 {
-    transform: translate(186%, 120%);
+    transform: translate(186%, 89%);
 }
 
 .box-personnel-iii.bnp04 {
-    transform: translate(295%, 102%);
+    transform: translate(295%, 74%);
 }
 
 .box-personnel-iii.bnp05 {
-    transform: translate(332%, 85%);
+    transform: translate(332%, 64%);
 }
 
 .box-iii {
