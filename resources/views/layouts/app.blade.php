@@ -206,7 +206,7 @@
                     <div class="submenu">
                         @forelse($recentMenu as $Menu)
                             <a
-                                href="/directory/menu/38/cate/{{ $Menu->categories_id }}">{{ $Menu->categories_name }}</a>
+                                href="/directory/menu/33/cate/{{ $Menu->categories_id }}">{{ $Menu->categories_name }}</a>
                         @empty
                         @endforelse
                     </div>
