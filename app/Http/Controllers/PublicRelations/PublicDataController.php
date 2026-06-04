@@ -125,7 +125,7 @@ class PublicDataController extends Controller
                 ["url" => "/personnel/menu/20", "name" => "หน่วยตรวจสอบภายใน"],
                 ["url" => "/categories/menu/26", "name" => "การบริหารและพัฒนาทรัพยากรบุคคล"],
             ],
-            "แผนงานและงบประมาณ" => [
+            "แผนพัฒนาท้องถิ่น" => [
                 // จะเติม dynamic ต่อไป
             ],
             "ผลการดำเนินงาน" => [
@@ -161,7 +161,7 @@ class PublicDataController extends Controller
         $recentMenu = DB::table('categories')->where('categories_menu', 33)->get();
         foreach ($recentMenu as $item) {
             $menus[' แผนพัฒนาท้องถิ่น'][] = [
-                'url' => "/directory/menu/38/cate/{$item->categories_id}",
+                'url' => "/directory/menu/33/cate/{$item->categories_id}",
                 'name' => $item->categories_name
             ];
         }
