@@ -160,7 +160,7 @@ class PublicDataController extends Controller
         // ตัวอย่างเติม dynamic (จาก categories ที่มี menu_id = 38)
         $recentMenu = DB::table('categories')->where('categories_menu', 33)->get();
         foreach ($recentMenu as $item) {
-            $menus[' แผนพัฒนาท้องถิ่น'][] = [
+            $menus['แผนพัฒนาท้องถิ่น'][] = [
                 'url' => "/directory/menu/33/cate/{$item->categories_id}",
                 'name' => $item->categories_name
             ];
