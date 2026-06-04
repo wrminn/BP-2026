@@ -6,8 +6,9 @@
 
     <section class="b-detail">
         <div class="form-wrapper">
-            <img src="{{ asset('/storage/detailweb/logo.png') }}" alt="Logo" class="d-block mx-auto mb-3"
-                style="max-width: 150px;">
+            {{-- <img src="{{ asset('/storage/detailweb/logo.png') }}" alt="Logo" class="d-block mx-auto mb-3" style="max-width: 150px;"> --}}
+            <img src="{{ asset('/img/logo.png') }}" alt="Logo" class="d-block mx-auto mb-3" style="max-width: 150px;">
+
             <h4 class="mb-4 text-center">{{ $title }}</h4>
             <h4 class="mb-4 text-center">คำร้องทั่วไป</h4>
             <div class="list-group">
@@ -18,7 +19,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">วันที่</label>
-                        <input type="text" name="field_15" class="form-control" value="{{ $Date }}" readonly>
+                        <input type="text" name="field_date" class="form-control" value="{{ $Date }}" readonly>
                     </div>
 
 

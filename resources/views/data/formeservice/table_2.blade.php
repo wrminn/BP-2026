@@ -6,8 +6,8 @@
 
     <section class="b-detail">
         <div class="form-wrapper">
-            <img src="{{ asset('/storage/detailweb/logo.png') }}" alt="Logo" class="d-block mx-auto mb-3"
-                style="max-width: 150px;">
+                        <img src="{{ asset('/img/logo.png') }}" alt="Logo" class="d-block mx-auto mb-3" style="max-width: 150px;">
+
             <h4 class="mb-4 text-center">{{ $title }}</h4>
             <h4 class="mb-4 text-center">คำร้องขอสนับสนุนน้ำอุปโภค-บริโภค</h4>
             <div class="list-group">

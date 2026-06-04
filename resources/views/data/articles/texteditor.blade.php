@@ -56,9 +56,16 @@
             </nav>
 
             <div class="detail-articles">
-                {!! $list->texteditor_detail ?? '<div class="No-information-found">
+                {{-- {!! $list->texteditor_detail ?? '<div class="No-information-found">
                     ไม่พบข้อมูล
-                </div>' !!}
+                </div>' !!} --}}
+                @if (!empty($file) && !empty($list->texteditor_detail))
+                    {!! $list->texteditor_detail !!}
+                @else
+                    <div class="No-information-found">
+                        ไม่พบข้อมูล
+                    </div>
+                @endif
             </div>
             <div class="detail-articles-file">
                 @if (!empty($file))

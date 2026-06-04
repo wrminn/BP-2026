@@ -30,6 +30,10 @@ use App\Http\Controllers\Webboard\WebboardDataController; //Webboard
 use App\Http\Controllers\PublicRelations\PublicBackendController;
 use App\Http\Controllers\PublicRelations\PublicDataController;
 
+use App\Http\Controllers\Modulemore\EserviceController;
+use App\Http\Controllers\GennericFormController;
+
+
 
 
 Route::get('/', function () {
@@ -149,10 +153,15 @@ Route::middleware(['auth'])->group(function () {
     Route::post('backend/contactdetail/menu/{menu}/id/{id}', [ServiceBackendController::class, 'ContactUpdate'])->name('contactdetail.update');
 
     //eservice 
-    Route::get('backend/eservice/menu/{menu}', [ServiceBackendController::class, 'listeservice'])->name('list.eservice');
-    Route::get('backend/eserviceform/menu/{menu}/id/{id}', [ServiceBackendController::class, 'listeserviceOne'])->name('eserviceform.id');
-    Route::post('backend/eservice/menu/{menu}/id/{id}', [ServiceBackendController::class, 'eservicedetailupdate'])->name('eservicedetail.update');
-    Route::post('backend/eservice/reply', [ServiceBackendController::class, 'reply'])->name('eservice.reply');
+    // Route::get('backend/eservice/menu/{menu}', [ServiceBackendController::class, 'listeservice'])->name('list.eservice');
+    // Route::get('backend/eserviceform/menu/{menu}/id/{id}', [ServiceBackendController::class, 'listeserviceOne'])->name('eserviceform.id');
+    // Route::post('backend/eservice/menu/{menu}/id/{id}', [ServiceBackendController::class, 'eservicedetailupdate'])->name('eservicedetail.update');
+    // Route::post('backend/eservice/reply', [ServiceBackendController::class, 'reply'])->name('eservice.reply');
+
+    Route::get('backend/eservice/menu/{menu}', [EserviceController::class, 'listeservice'])->name('list.eservice');
+    Route::get('backend/eserviceform/menu/{menu}/id/{id}', [EserviceController::class, 'listeserviceOne'])->name('eserviceform.id');
+    Route::post('backend/eservice/menu/{menu}/id/{id}', [EserviceController::class, 'eservicedetailupdate'])->name('eservicedetail.update');
+    Route::post('backend/eservice/reply', [EserviceController::class, 'reply'])->name('eservice.reply');
 
     // webboard
     Route::get('backend/webboard/menu/{menu}', [WebboardBackendController::class, 'listthread'])->name('list.webboard');
@@ -212,13 +221,21 @@ Route::get('threaddetail/menu/{menu}/id/{id}', [WebboardDataController::class, '
 Route::post('threaddetail/menu/{menu}/id/{id}', [WebboardDataController::class, 'PostsInsert'])->name('Post.insert');
 
 //eservice 
-Route::get('listformeservice/menu/{menu}', [ServiceDataController::class, 'listform'])->name('formeservice');
-Route::get('listformeservicepdf/menu/{menu}/id/{id}', [ServiceDataController::class, 'listformpdf'])->name('formeservicepdf');
-Route::get('formeservicepdf/export/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDF'])->name('GeneralRequestsAdminExportPDF');
-Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDFtest'])->name('GeneralRequestsAdminExportPDFtest');
-Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDFtest2pdf'])->name('GeneralRequestsAdminExportPDFtest2pdf');
-Route::get('formeservice/menu/{menu}/id/{id}', [ServiceDataController::class, 'showform'])->name('showform');
-Route::post('formeservice/menu/{menu}/id/{id}', [ServiceDataController::class, 'saveform'])->name('showform.save');
+// Route::get('listformeservice/menu/{menu}', [ServiceDataController::class, 'listform'])->name('formeservice');
+// Route::get('listformeservicepdf/menu/{menu}/id/{id}', [ServiceDataController::class, 'listformpdf'])->name('formeservicepdf');
+// Route::get('formeservicepdf/export/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDF'])->name('GeneralRequestsAdminExportPDF');
+// Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDFtest'])->name('GeneralRequestsAdminExportPDFtest');
+// Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [ServiceDataController::class, 'GeneralRequestsAdminExportPDFtest2pdf'])->name('GeneralRequestsAdminExportPDFtest2pdf');
+// Route::get('formeservice/menu/{menu}/id/{id}', [ServiceDataController::class, 'showform'])->name('showform');
+// Route::post('formeservice/menu/{menu}/id/{id}', [ServiceDataController::class, 'saveform'])->name('showform.save');
+
+Route::get('listformeservice/menu/{menu}', [GennericFormController::class, 'listform'])->name('formeservice');
+Route::get('listformeservicepdf/menu/{menu}/id/{id}', [GennericFormController::class, 'listformpdf'])->name('formeservicepdf');
+Route::get('formeservicepdf/export/form/{form}/id/{id}', [GennericFormController::class, 'GeneralRequestsAdminExportPDF'])->name('GeneralRequestsAdminExportPDF');
+Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [GennericFormController::class, 'GeneralRequestsAdminExportPDFtest'])->name('GeneralRequestsAdminExportPDFtest');
+Route::get('formeservicepdf/export-test/form/{form}/id/{id}', [GennericFormController::class, 'GeneralRequestsAdminExportPDFtest2pdf'])->name('GeneralRequestsAdminExportPDFtest2pdf');
+Route::get('formeservice/menu/{menu}/id/{id}', [GennericFormController::class, 'showform'])->name('showform');
+Route::post('formeservice/menu/{menu}/id/{id}', [GennericFormController::class, 'saveform'])->name('showform.save');
 
 //Satisfaction
 Route::get('satisfaction/menu/{menu}', [PublicDataController::class, 'satisfaction'])->name('satisfaction');

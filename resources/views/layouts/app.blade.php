@@ -202,7 +202,7 @@
                 </div>
 
                 <div class="nav-pill has-submenu">
-                    แผนงานและงบประมาณ
+                     แผนพัฒนาท้องถิ่น
                     <div class="submenu">
                         @forelse($recentMenu as $Menu)
                             <a
@@ -216,7 +216,7 @@
                     กฎหมายและระเบียบ
                     <div class="submenu">
                         {{-- <a href="/directory/menu/39">เทศบัญญัติและคำสั่ง</a> --}}
-                        <a href="/directory/menu/40">กฎหมายที่เกี่ยวข้อง</a>
+                        <a href="/directory/menu/34">กฎหมายที่เกี่ยวข้อง</a>
                         {{-- <a href="/directory/menu/76">แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ</a> --}}
                         <a
                             href="https://www.dla.go.th/land/legalItemFon.do?searchCondition.typeLegalItem=2">พระราชบัญญัติและพระราชกฤษฎีกา</a>
@@ -230,12 +230,11 @@
                     <div class="submenu">
                         <a href="/complaint/menu/35">รับเเจ้งเรื่องราวร้องเรียนร้องทุกข์</a>
                         <a href="/corruption/menu/36">รับเเจ้งเรื่องราวร้องเรียนการทุจริต</a>
-                        <a href="satisfaction/menu/37">รายงานผลสำรวจความพึงพอใจในการให้บริการ</a>
+                        <a href="/directory/menu/37">รายงานผลสำรวจความพึงพอใจในการให้บริการ</a>
                         <a href="/categories/menu/38">คู่มืออื่นๆ</a>
-
-                        <a href="/categories/menu/39">เอกสารดาวน์โหลด</a>
+                        <a href="/directory/menu/39">เอกสารดาวน์โหลด</a>
                         <a href="/listformeservice/menu/40">ยื่นคำร้องออนไลน์ E-service</a>
-                        <a href="/citizen/faq/list">คำถามที่พบบ่อย</a>
+                        <a href="/directory/menu/41">คำถามที่พบบ่อย</a>
                     </div>
                 </div>
 
