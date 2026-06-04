@@ -680,7 +680,7 @@
                     <button class="active" onclick="openTab('egp')">ประกาศ E-GP</button>
                     <button onclick="openTab('buy')">ประกาศจัดซื้อจัดจ้าง</button>
                     <button onclick="openTab('result')">ผลประกาศจัดซื้อจัดจ้าง</button>
-                    <button onclick="openTab('report')">รายงานผลจัดซื้อจัดจ้าง</button>
+                    <button onclick="openTab('report')">ประกาศราคากลาง</button>
                 </div>
 
                 <div id="egp" class="tab-content active">
@@ -863,7 +863,7 @@
                                             {{ \Illuminate\Support\Str::limit($list->texteditor_title, 70) }}
                                         </div>
                                     </div>
-                                    <div class="tag-announce">รายงานผลจัดซื้อจัดจ้าง</div>
+                                    <div class="tag-announce">ประกาศราคากลาง</div>
                                 </div>
                             </a>
                         @empty
@@ -958,7 +958,8 @@
                 </div>
             </div>
         </form>
-        <img src="/img/background/BG-vote.png" alt="" style="width: 100%;">
+        {{-- <img src="/img/background/BG-vote.png" alt="" style="width: 100%;"> --}}
+        <img src="/img/background/แสดงความคิดเห็น1.png" alt="" style="width: 100%;">
     </section>
 
     <section class="box-map">

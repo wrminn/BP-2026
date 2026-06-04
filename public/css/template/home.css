@@ -2207,24 +2207,61 @@ img.bg-ons-button-bn08 {
 }
 
 .name-bnp01 {
-    background: #a2c9ec;
+    position: relative;
+    /* background: #a2c9ec; */
     padding: 10px;
     font-size: 22px;
     border-radius: 7px;
     margin-top: -5px;
 }
 
-.name-bnp02,
+/* .name-bnp02,
 .name-bnp03,
 .name-bnp04,
 .name-bnp05 {
     font-size: 14px;
-    background: #a2c9ec;
     padding: 10px;
     border-radius: 7px;
     margin-top: -10px;
 }
 
+
+
+.name-bnp02::before,
+.name-bnp03::before,
+.name-bnp04::before,
+.name-bnp05::before {
+    background-image: url("/img/ป้ายผู้บริหาร.png");
+} */
+
+.name-bnp02,
+.name-bnp03,
+.name-bnp04,
+.name-bnp05 {
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.name-bnp01::before,
+.name-bnp02::before,
+.name-bnp03::before,
+.name-bnp04::before,
+.name-bnp05::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/img/ป้ายผู้บริหาร.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.3;  */
+    z-index: -1;
+    background-size: 100% 100%;
+}
 
 
 .box-personnel-iii.bnp01 {
