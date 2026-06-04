@@ -59,7 +59,7 @@
                 {{-- {!! $list->texteditor_detail ?? '<div class="No-information-found">
                     ไม่พบข้อมูล
                 </div>' !!} --}}
-                @if (!empty($file) && !empty($list->texteditor_detail))
+                @if (!empty($file) || !empty($list->texteditor_detail))
                     {!! $list->texteditor_detail !!}
                 @else
                     <div class="No-information-found">
