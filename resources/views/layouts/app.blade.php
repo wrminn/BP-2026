@@ -395,15 +395,14 @@
                     </div>
                     <div class="link-footer-two">
                         <a href="/home">หน้าแรก</a>
-                        <a href="/webboard/menu/75">กระดานกระทู้</a>
-                        <a href="/contact/menu/74">ติดต่อ</a>
+                        <a href="/webboard/menu/56">กระดานกระทู้</a>
+                        <a href="/contact/menu/55">ติดต่อ</a>
                         <a href="/Sitemap">แผนผังเว็บไซต์</a>
-                        <a href="https://eservice-thakam.sosmartsolution.com/FormeService/id/1"
-                            target="_blank">รับเเจ้งเรื่องราวร้องเรียนร้องทุกข์</a>
+                        <a href="/complaint/menu/35" target="_blank">รับเเจ้งเรื่องราวร้องเรียนร้องทุกข์</a>
                     </div>
                 </div>
                 <div class="footer-ma">
-                    <a href="http://webmail.thakam.go.th" target="_blank"><img src="/img/13Footer/1.png"
+                    <a href="" target="_blank"><img src="/img/13Footer/1.png"
                             alt="" width="250"></a>
                     <a href=""><img src="/img/13Footer/2.png" alt="" width="250"></a>
                     <a href=""><img src="/img/13Footer/3.png" alt="" width="250"></a>

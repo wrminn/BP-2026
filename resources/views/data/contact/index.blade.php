@@ -52,12 +52,13 @@
                     <button type="submit" class="btn btn-primary px-5">บันทึก</button>
                 </div>
             </form>
-            <div class="mt-3">
-                 <iframe class="fb-page"
+            <div class="mt-3"  style="display: flex;justify-content: center;">
+                 {{-- <iframe class="fb-page"
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthakam.go.th&tabs=timeline&width=340&height=750&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=6174507855916076"
                     width="340" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> --}}
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.938011469614!2d101.07942617934569!3d13.600598201317679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d3d003d705b77%3A0x3cf46533314b8b10!2z4LmA4LiX4Lio4Lia4Liy4Lil4LiV4Liz4Lia4Lil4Lia4LmJ4Liy4LiZ4LmC4Lie4LiY4Li04LmM!5e0!3m2!1sth!2sth!4v1780671174377!5m2!1sth!2sth" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>
