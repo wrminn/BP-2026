@@ -402,7 +402,7 @@
                     </div>
                 </div>
                 <div class="footer-ma">
-                    <a href="" target="_blank"><img src="/img/13Footer/1.png"
+                    <a href="https://mail.hostinger.com/auth/login" target="_blank"><img src="/img/13Footer/1.png"
                             alt="" width="250"></a>
                     <a href=""><img src="/img/13Footer/2.png" alt="" width="250"></a>
                     <a href=""><img src="/img/13Footer/3.png" alt="" width="250"></a>
