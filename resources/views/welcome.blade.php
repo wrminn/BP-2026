@@ -666,7 +666,7 @@
                     </a>
                 </div>
 
-                <a href="/" class="enter-btn">
+                <a href="/home" class="enter-btn">
                     {{-- เข้าสู่เว็บไซต์ --}}
                     <img src="{{ asset('/intro/Button.png') }}" alt="เข้าสู่ระบบ">
                 </a>
