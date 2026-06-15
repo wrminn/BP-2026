@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>เทศบาลตำบลท่าข้าม</title>
+    <title>เทศบาลตำบลบ้านโพธิ์</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&display=swap"
         rel="stylesheet">
@@ -662,7 +662,7 @@
 
                 <div class="royal-box">
                     <a href="https://www.royaloffice.th/" class="royal-btn" target="_blank">
-                        <img src="{{ asset('intro/a1.png') }}" alt="">
+                        <img src="{{ asset('intro/B1.png') }}" alt="">
                     </a>
                 </div>
 
@@ -675,7 +675,7 @@
 
                     <a href="https://www.royaloffice.th/12/06/2026/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87-12_06_2569/"
                         target="_blank" class="royal-btn">
-                        <img src="{{ asset('intro/a2.png') }}" alt="">
+                        <img src="{{ asset('intro/B2.png') }}" alt="">
                     </a>
                 </div>
 
