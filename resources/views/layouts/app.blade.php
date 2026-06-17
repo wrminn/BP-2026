@@ -375,8 +375,9 @@
                         <div class="text-footer-one">
                             <img src="/img/13Footer/Mail.png" alt="">
                             <div style="display: flex;flex-direction: column;">
-                                <span>admin@banphocity.go.th</span>
-                                {{-- <span>saraban_05240403@dla.go.th</span> --}}
+                                {{-- <span>admin@banphocity.go.th</span> --}}
+                                <span>saraban_05240403@dla.go.th</span>
+                                <span>saraban@banprocity.go.th</span>
                             </div>
                         </div>
                         <div class="text-footer-two">

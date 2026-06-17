@@ -16,7 +16,7 @@
             <h4 class="mb-4 text-center">เทศบาลตำบลบ้านโพธิ์</h4>
             <h4 class="mb-4 text-center">222 หมู่ที่ 1 ตำบลบ้านโพธิ์ อำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา 24140</h4>
             <h4 class="mb-4 text-center">เบอร์โทรสำนักงาน 0-3858-7308 ต่อ 103 แฟกซ์ 0-3858-7308</h4>
-            <h4 class="mb-4 text-center"> E-mail : admin@banphocity.go.th</h4>
+            <h4 class="mb-4 text-center"> E-mail : saraban_05240503@dal.go.th / saraban@banprocity.go.th</h4>
             <form class="" action="{{ route('contact.insert', ['menu' => $menuId]) }}" method="post"
                 enctype="multipart/form-data">
                 @csrf

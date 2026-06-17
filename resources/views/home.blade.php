@@ -364,6 +364,10 @@
                     target="_blank">
                     <img src="/img/SmartCity/ศูนย์ดำรงธรรม.png" class="banner-smartcity no-underline">
                 </a>
+                <a href="https://anonymous.pacc.go.th/" class=""
+                    target="_blank">
+                    <img src="/img/SmartCity/SMT-7-2.jpg" class="banner-smartcity no-underline">
+                </a>
 
             </div>
             <div class="smartcity-one">
@@ -379,8 +383,8 @@
                     <img src="/img/SmartCity/OIC (2).png" class="banner-smartcity no-underline">
                 </a>
 
-                <a href="https://www.nacc.go.th/" class="" target="_blank">
-                    <img src="/img/SmartCity/ปปข.png" class="banner-smartcity no-underline">
+                <a href="https://www.nacc.go.th/allcomplaint" class="" target="_blank">
+                    <img src="/img/SmartCity/SMT-7-1.png" class="banner-smartcity no-underline">
                 </a>
             </div>
         </div>
