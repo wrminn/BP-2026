@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Services\MyService;
+use Illuminate\Support\Facades\Storage;
 
 use App\Models\Texteditor;
 use App\Models\Category;
@@ -164,5 +165,26 @@ class DirectoryDataController extends Controller
         }
 
         return view('data.categories.detail', compact('title', 'menuId', 'list', 'file', 'breadcrumbs'));
+    }
+    public function download($id)
+    {
+
+        $file = DB::table('texteditor_upload')
+            ->where('texteditor_id', $id)
+            ->where('texteditor_display', "A")
+            ->first();
+
+            // echo "<pre>";
+            // print_r($file);
+            // exit();
+
+        $filePath = $file->texteditor_upload_file;
+
+        $downloadName = $file->texteditor_upload_name;
+
+        return Storage::disk('public')->download(
+            $filePath,
+            $downloadName
+        );
     }
 }

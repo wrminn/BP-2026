@@ -285,3 +285,5 @@ Route::get('/flipbook', function () {
 
     return view('flipbook', compact('pdf_files'));
 });
+
+Route::get('/download/{id}', [DirectoryDataController::class, 'download'])->name('file.download');

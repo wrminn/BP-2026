@@ -27,7 +27,7 @@
                 <div class="row mb-3">
                     <div class="col-md-9">
                         <label class="form-label">ชื่อ - นามสกุล</label>
-                        <input type="text" class="form-control" name="name">
+                        <input type="text" class="form-control" name="name"> 
                     </div>
 
                     <div class="col-md-3">

@@ -70,29 +70,74 @@
                         <div class="mb-3">
                             @foreach ($file as $item)
                                 @php
-                                    $isPdf =
-                                        strtolower(pathinfo($item->texteditor_upload_name, PATHINFO_EXTENSION)) ===
-                                        'pdf';
+                                    $extension = strtolower(
+                                        pathinfo($item->texteditor_upload_name, PATHINFO_EXTENSION),
+                                    );
+
+                                    $officeFiles = ['pdf', 'doc', 'docx', 'xls', 'xlsx'];
+
+                                    $isOfficeFile = in_array($extension, $officeFiles);
                                 @endphp
-                                @if ($isPdf)
+
+                                @if ($isOfficeFile)
                                     <div class="file-detail-{{ $item->texteditor_id }} mt-3">
+
                                         @if ($item->texteditor_show === 'Y')
                                             <p>
-                                                <a href="{{ asset('storage/' . $item->texteditor_upload_file) }}"
-                                                    target="_blank" class="no-underline">
-                                                    📄 {{ $item->texteditor_upload_name }}
+                                               <a href="{{ route('file.download', $item->texteditor_id) }}"
+                                                target="_blank" class="no-underline">
+                                            
+                                                    @switch($extension)
+                                                        @case('pdf')
+                                                            📄
+                                                        @break
+
+                                                        @case('doc')
+                                                        @case('docx')
+                                                            📝
+                                                        @break
+
+                                                        @case('xls')
+                                                        @case('xlsx')
+                                                            📊
+                                                        @break
+                                                    @endswitch
+                                                    {{ $item->texteditor_upload_name }}
                                                 </a>
                                             </p>
-                                            <div class="pdf-viewer">
-                                                <embed src="{{ asset('storage/' . $item->texteditor_upload_file) }}"
-                                                    type="application/pdf" width="100%" height="1200px" />
-                                            </div>
+
+                                            @if ($extension === 'pdf')
+                                                <div class="pdf-viewer">
+                                                    <embed src="{{ asset('storage/' . $item->texteditor_upload_file) }}"
+                                                        type="application/pdf" width="100%" height="1200px" />
+                                                </div>
+                                            @endif
                                         @else
-                                            <a href="{{ asset('storage/' . $item->texteditor_upload_file) }}"
-                                                target="_blank" class="no-underline" class="file-link">
-                                                📄 {{ $item->texteditor_upload_name }}
+                                          
+                                            <a href="{{ route('file.download', $item->texteditor_id) }}"
+                                                target="_blank" class="no-underline">
+
+
+                                            @switch($extension)
+                                                @case('pdf')
+                                                    📄
+                                                @break
+
+                                                @case('doc')
+                                                @case('docx')
+                                                    📝
+                                                @break
+
+                                                @case('xls')
+                                                @case('xlsx')
+                                                    📊
+                                                @break
+                                            @endswitch
+
+                                            {{ $item->texteditor_upload_name }}
                                             </a>
                                         @endif
+
                                     </div>
                                 @else
                                     <img src="{{ asset('storage/' . $item->texteditor_upload_file) }}" alt=""
